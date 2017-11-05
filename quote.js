@@ -6,6 +6,8 @@ function randomQuoteGen() {
     $.getJSON(quoteapi, function(data) {
         $(".mb-0").html('"' + data.quote + '"');
         $(".blockquote-footer").html(data.author);
+        // Tweet
+        $(".tweet").prop("href", "https://twitter.com/intent/tweet?text=" + data.quote);
     });
 
     // New quote on button click
@@ -13,6 +15,8 @@ function randomQuoteGen() {
         $.getJSON(quoteapi, function(data) {
             $(".mb-0").html('"' + data.quote + '"');
             $(".blockquote-footer").html(data.author);
+            // Tweet
+            $(".tweet").prop("href", "https://twitter.com/intent/tweet?text=" + data.quote);
         });
     });
 }
