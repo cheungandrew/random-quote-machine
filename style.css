@@ -12,6 +12,15 @@
         padding-top: 19px;
         padding-bottom: 19px;
     }
+
+    body {
+        background: linear-gradient(#364B71, #D1E1FF);
+        background-repeat: no-repeat;
+    }
+
+    html {
+        height: 100%;
+    }
 }
 
 @media (min-width: 1250px) {
@@ -19,6 +28,15 @@
         width: 900px;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    body {
+        background: linear-gradient(#364B71, #D1E1FF);
+        background-repeat: no-repeat;
+    }
+
+    html {
+        height: 100%;
     }
 }
 
