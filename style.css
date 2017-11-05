@@ -3,6 +3,7 @@
         width: 300px;
         padding-top: 18px;
         padding-bottom: 18px;
+        margin-bottom: 50px;
     }
 }
 
@@ -14,7 +15,7 @@
     }
 
     body {
-        background: linear-gradient(#364B71, #D1E1FF);
+        background: linear-gradient(#7A8DAF, #D1E1FF);
         background-repeat: no-repeat;
     }
 
@@ -31,7 +32,7 @@
     }
 
     body {
-        background: linear-gradient(#364B71, #D1E1FF);
+        background: linear-gradient(#7A8DAF, #D1E1FF);
         background-repeat: no-repeat;
     }
 
