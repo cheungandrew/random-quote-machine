@@ -6,7 +6,6 @@ function randomQuoteGen() {
     $.getJSON(quoteapi, function(data) {
         $(".mb-0").html('"' + data.quote + '"');
         $(".blockquote-footer").html(data.author);
-        
     });
 
     // New quote on button click

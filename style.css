@@ -1,8 +1,41 @@
 @media (max-width: 767px) {
+    .quote {
+        width: 300px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1249px) {
+    .quote {
+        width: 700px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
 }
 
 @media (min-width: 1250px) {
+    .quote {
+        width: 900px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+body {
+    background-color: #7A8DAF;
+    font-family: 'Roboto Slab', serif;
+}
+
+.quote {
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 2%;
+    border-color: #364B71;
+    background-color: #D1E1FF;
+}
+
+button {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
