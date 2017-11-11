@@ -13,15 +13,6 @@
         padding-top: 19px;
         padding-bottom: 19px;
     }
-
-    body {
-        background: linear-gradient(#7A8DAF, #D1E1FF);
-        background-repeat: no-repeat;
-    }
-
-    html {
-        height: 100%;
-    }
 }
 
 @media (min-width: 1250px) {
@@ -30,20 +21,15 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
-    body {
-        background: linear-gradient(#7A8DAF, #D1E1FF);
-        background-repeat: no-repeat;
-    }
-
-    html {
-        height: 100%;
-    }
 }
 
 body {
-    background-color: #7A8DAF;
     font-family: 'Roboto Slab', serif;
+    background-image: url("images/lake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
 }
 
 .quote {
